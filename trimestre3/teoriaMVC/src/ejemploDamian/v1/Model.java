@@ -1,11 +1,14 @@
-import java.lang.reflect.Array;
+package ejemploDamian.v1;
+
+import ejemploDamian.v1.Coche;
+
 import java.util.ArrayList;
 
 /**
  * aqui es donde tendria la bd. por tanto aqui es donde creo coches, este es como mi parking
  *
  * si cambio la bd solo tendria que cambiar esta linea <code>parking.add(aux);</code> y en la clase
- * <code>Controller</code> **no cambiaria nada**
+ * <code>ejemploDamian_v1.Controller</code> **no cambiaria nada**
  */
 public class Model {
     ArrayList<Coche> parking = new ArrayList<>();

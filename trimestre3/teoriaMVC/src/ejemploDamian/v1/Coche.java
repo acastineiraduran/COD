@@ -1,3 +1,5 @@
+package ejemploDamian.v1;
+
 public class Coche {
     private String modelo;
     private Integer velocidad;
